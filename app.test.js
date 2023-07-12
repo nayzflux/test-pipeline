@@ -1,4 +1,4 @@
-const { dayOfTheWeek } = require('./app');
+const { dayOfTheWeek, addition} = require('./app');
 
 
 test('getDay returns the long-format day of the week', () => {
@@ -7,5 +7,6 @@ test('getDay returns the long-format day of the week', () => {
 });
 
 test('addition returns number added', () => {
-    const result = add
+    const result = addition(23 + 10);
+    expect(result).toBe(33)
 })
