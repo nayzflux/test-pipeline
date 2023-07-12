@@ -7,6 +7,6 @@ test('getDay returns the long-format day of the week', () => {
 });
 
 test('addition returns number added', () => {
-    const result = addition(23 + 10);
+    const result = addition(23, 10);
     expect(result).toBe(33)
 })
